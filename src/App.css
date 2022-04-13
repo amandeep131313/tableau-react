@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+ 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+.drop-down-select{
+    width: 80%;
+    transform: translateX(10%);
+}
+
+.ui-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+.drop-down-container{
+  border: 1px solid gray;
+  width: 90%;
+  background-color:#00b4d8; 
+  margin: 0 auto;
+}
+
+.ui-dashboard{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 95%;
+  transform: translateX(10px);
+  background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--FUFoeQpW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/p5wilmn62vczuw4z7kjy.png');
+}
+
+.default-background{
+  background-color: aquamarine;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px 1px gray;
+  margin: 30px;
 }
